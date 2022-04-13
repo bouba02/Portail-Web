@@ -1,0 +1,55 @@
+
+ ------------------------- DESCRIPTION DU PROJET -----------------------------------
+Ce projet vise la mise en place d’un portail web permettant à l’étudiant de suivre son
+parcours dès sa demande d’inscription jusqu’à l’obtention de son diplôme.
+
+Le portail est accessible aux étudiants, aux professeurs et aux administrateurs. Les étu-
+diants y accèdent pour faire les demandes d’inscriptions au sein de la faculté des sciences
+Rabat à une filière précise et un semestre précis. Ils pourrons consulter leurs notes de
+fin de semestre, et ils auront aussi accès à toutes les informations concernant les concours
+organisés au sein de l’établissement.
+
+Les professeurs à leur tour, auront accès aux listes des étudiants inscrits dans leurs mo-
+dules, et pourront saisir les notes des modules et les modifier avant la date de délibération.
+
+Toutes modifications de notes seront enregistrées dans la base de données. Les notes se-
+ront disponibles chez les étudiants après la fin des délibérations.
+
+Enfin, les administrateurs pourrons accéder à la plateforme pour la gestion complète 
+du site et  vérifier les demandes d’inscriptions des étudiants, et vérifier s’ils sont éligibles
+ou pas, puis valider ou non la demande d’inscription. Ils pourrons aussi gérer les concours sur 
+le portail.
+
+    -----------  OUTILS INDISPENSABLES AUX BONS FONCTIONNEMENTS DU SITE --------------------------------
+    MAMP pour les utilisateurs de MAC.
+    WAMP pour les utilisateur de WINDOWS.
+    
+   ------------------------ INSTRUCTIONS POUR L'INSTALLATION ----------------------------
+    
+   0- Créer une base de données au nom :'imperial_college' dans phpmyAdmin.
+1- Importer le fichier Fsr Manager/database/imperial_college.sql dans votre base de donnée imperial_college crée. 
+Ensuite verifier si vous avez ajouté un mot de passe à votre mysql , veuillez le renseigner dans le repertoire 
+Connection.
+
+2- Si vous utilisez MAMP pour les utilisateurs de MAC , importer le dossier dans le repertoire htdocs de MAMP.
+3- Si vous utilisez WAMP Server , veuillez copier le dossier dans votre repertoire /www de WampServer.
+
+Authentification Admin
+login: admin@gmail.com  
+Mot de passe: admin123
+
+Authentification Professeur
+login: staff1@gmail.com
+Mot de passe: teacher123
+
+Authentification Etudiant
+login: bouba@gmail.com
+Mot de passe: admin
+
+4- Après l'ajout d'un professeur par l'admin , l'admin doit activer le compte de ce professeur ,
+à partir de l'onglet Gestion des comptes , en renseignant l'email de ce professeur .
+
+
+
+-------------LANGAGE UTILISE-----------------
+HTML,CSS,JSS,PHP,MYSQL
